@@ -1,0 +1,414 @@
+/*<!-- Name: Simit Sanjay Yadav
+Email: ssyadav2@myseneca.ca
+Student ID: 151009198
+ -->*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+#tag hr {
+  margin-top: 1%;
+  width: 86%;
+}
+
+#tag {
+  height: 7vh;
+  padding: 2% 0% 2% 11%;
+  display: grid;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav li {
+  list-style: none;
+  line-height: 23px;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: black;
+  align-items: center;
+  font-size: 1rem;
+}
+
+nav > div:nth-child(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: right;
+  padding-right: 30%;
+}
+
+nav > div:nth-child(1) > div:nth-child(2) {
+  padding-top: 8px;
+  justify-items: center;
+}
+
+nav > div:nth-child(1) > div:nth-child(1) {
+  justify-self: right;
+}
+
+nav > div:nth-child(2) li {
+  display: inline;
+  padding: 18px;
+}
+
+nav > div:nth-child(2) {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+nav > div:nth-child(3) {
+  justify-self: center;
+}
+
+nav > div:nth-child(1) img {
+  width: 50px;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.nav-links-down {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links-2 {
+  list-style: none;
+  line-height: 25px;
+}
+
+.nav-links-2 a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+}
+
+main {
+  height: 100%;
+}
+
+#hero-img {
+  background-image: url(../IMAGES/Moving-Images/movingimage2.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.hero {
+  display: grid;
+  color: rgb(241, 197, 197);
+  padding-left: 120px;
+}
+
+#hero1 {
+  padding: 0px;
+  height: 200px;
+}
+
+.hero2 {
+  font-size: 10px;
+  display: left;
+  font-weight: bold;
+  justify-content: space-around;
+  /* padding-inline: 110px; */
+}
+
+footer {
+  display: grid;
+}
+
+#footer1 {
+  display: grid;
+  min-height: 8vh;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+footer i {
+  display: grid;
+  padding-inline: 50px;
+}
+
+#footer2 {
+  background-color: rgb(43, 40, 40);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 100px;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  color: white;
+  line-height: 23px;
+}
+
+#footer2 h1 {
+  padding-bottom: 20px;
+}
+
+/* #footer2 div {
+  padding-left: 150px;
+} */
+
+.footer3 {
+  height: 80px;
+  background-color: rgb(43, 40, 40);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: antiquewhite;
+}
+.footer3 div {
+  padding-left: 80px;
+}
+
+.footer-img {
+  padding-left: 80px;
+  width: 60%;
+}
+
+.footer-img img {
+  height: 60px;
+  width: 60%;
+}
+
+.hero3 {
+  font-size: 3rem;
+  padding: 1% 0% 1% 0%;
+  color: white;
+}
+
+.hero4 {
+  color: white;
+}
+
+.hero5 button {
+  font-size: 1rem;
+  background-color: rgb(240, 7, 85);
+  border-style: hidden;
+  border-radius: 45%;
+  padding: 17px;
+}
+
+.hero5 {
+  padding: 1% 0% 1% 0%;
+  display: flex;
+  align-items: center;
+}
+
+.div-space {
+  padding-left: 3%;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 75vh;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 35px;
+  padding-top: 2%;
+}
+
+#img-set > img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#img-set {
+  justify-items: right;
+  padding-inline: 5%;
+}
+
+.section2 h1 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+.section2 button {
+  color: white;
+  border-color: white;
+  font-size: 15px;
+  background-color: black;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 1%;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#sec {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-self: center;
+  width: 75%;
+}
+
+#odd {
+  height: 75%;
+  width: 75%;
+}
+
+#even {
+  justify-self: right;
+  width: 75%;
+}
+
+#div2 {
+  font-size: 22px;
+  padding-top: 20px;
+  height: 100px;
+  padding-inline: 150px;
+  color: white;
+  background-color: black;
+}
+
+#div3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: black;
+  color: white;
+  line-height: 23px;
+}
+
+#div3 h1 {
+  padding-bottom: 20px;
+}
+
+/* #div3 div {
+  padding-left: 150px;
+} */
+
+.nav-links-3 {
+  list-style: none;
+}
+
+.nav-links-3 a {
+  color: blue;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+#email-div {
+  height: 50%;
+  justify-self: center;
+  align-self: center;
+  border-style: double;
+  border-width: 1rem;
+  border-color: white;
+  padding: 2%;
+}
+
+#inp {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-style: outset;
+  width: 80%;
+}
+
+#but {
+  justify-self: center;
+  margin-top: 4%;
+  padding: 2%;
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+#email {
+  height: 25vh;
+  background-color: black;
+  color: white;
+  display: grid;
+  font-size: 1.5rem;
+}
+/* 
+#email form {
+  /* justify-self: center; 
+  align-self: center;
+} */
+
+#email input {
+  height: 2%;
+}
+
+#email-div > form:nth-child(3) {
+  padding: 20%;
+}
+
+@media (min-width: 576px) {
+  .hero > img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .main-section-text {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}

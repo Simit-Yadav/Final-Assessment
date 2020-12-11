@@ -1,0 +1,51 @@
+/* <!-- Name: Simit Sanjay Yadav
+Email: ssyadav2@myseneca.ca
+Student ID: 151009198
+ --> */
+
+.movie-details {
+  background-image: url(../IMAGES/movie1img.webp);
+  height: 400px;
+  color: white;
+  padding-left: 140px;
+  font-size: 20px;
+}
+
+.movie-details2 {
+  background-image: url(../IMAGES/movie2img.webp);
+  height: 400px;
+  color: white;
+  padding-left: 140px;
+  font-size: 30px;
+}
+
+#bigger {
+  height: 200px;
+}
+
+#sec2 {
+  height: 65vh;
+  background-color: black;
+  padding-left: 140px;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#sec2 div {
+  margin: 80px;
+}
+
+.sec3 {
+  padding-left: 20%;
+  padding-top: 5%;
+  background-color: black;
+}
+
+.sec3 img {
+  align-content: center;
+  width: 80%;
+  object-fit: cover;
+  background-size: cover;
+}

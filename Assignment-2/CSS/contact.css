@@ -1,0 +1,86 @@
+/* #hero {
+  height: 70vh;
+  background-color: black;
+  display: grid;
+}
+
+#hero > div {
+  height: 70%;
+  width: 60%;
+  justify-self: center;
+  align-self: center;
+  justify-self: center;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  text-align: center;
+} */
+
+#email-div {
+  height: 80%;
+  width: 50%;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  border-style: double;
+  border-width: 1rem;
+  border-color: white;
+  padding: 2%;
+}
+
+#inp {
+  background-color: white;
+  color: black;
+  border-color: white;
+  border-style: outset;
+  height: 5vh;
+}
+
+#but {
+  justify-self: center;
+  margin-top: 4%;
+  padding: 2%;
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+#contact-form {
+  text-align: center;
+}
+
+#form1 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: grid;
+  font-size: 1.5rem;
+}
+/* 
+#email form {
+  /* justify-self: center; 
+  align-self: center;
+} */
+
+#contact-form input {
+  margin: 1%;
+}
+#contact-form {
+  padding: 1%;
+}
+
+#list li {
+  list-style: none;
+}
+
+#message {
+  width: 30vw;
+  height: 10vh;
+}
+
+.hide {
+  visibility: none;
+  display: none;
+}

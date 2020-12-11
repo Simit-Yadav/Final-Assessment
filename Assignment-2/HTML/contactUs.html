@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div>
+    
+                    <a href="../HTML/index.html"><img src="../IMAGES/amc-icon.png" alt="AMC"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">Sign In</a></li>
+                        <li><a href="">Join AMC Stubs</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div>
+                <ul>
+                    <li>
+                        <a href="./nowplaying.html">See A Movie</a>
+                    </li>
+                    <li>
+                        <a href="">Our Theaters</a>
+                    </li>
+                    <li>
+                        <a href="">Food & Drinks</a>
+                    </li>
+                    <li>
+                        <a href="">On Demand</a>
+                    </li>
+                    <li>
+                        <a href="">Extras</a>
+                    </li>
+                    
+                </ul>
+            </div>
+    
+    
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Showtimes</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+
+        <main>
+
+            <section id = "form1">
+                <div id = "email-div">
+                    <form id = "contact-form" action="o https://httpbin.org/post" method="POST">
+                        <!-- <label for="name">Name: </label>  -->
+                        <input type="text" id = "inp" name = "full name" placeholder="Full Name"><br>
+                        <!-- <label for="email-address">Email Addres: </label> -->
+                        <input type="email" id = "inp" name = "email address" placeholder="Email"><br>
+                        <!-- <label for="address">Address: </label> -->
+                        <input type="text" id = "inp" name = "address" placeholder="Address"><br>
+                        <input type="city" name="city" id="inp" list="city-list" autocomplete=true placeholder="City" required="">
+                        <datalist id="city-list">
+                            <option>Calgari</option>
+                            <option>Edmonton</option>
+                            <option>Halifax</option>
+                            <option>Montreal</option>
+                            <option>Niagara Falls</option>
+                            <option>Ottawa</option>
+                            <option>Quebec</option>
+                            <option>Toronto</option>
+                            <option>Vancouver</option>
+                            <option>Victoria</option>
+                        </datalist>
+                        <input type="text" id="inp" name = "postal code" placeholder="Postal Code"><br>
+
+                        <label for="contact-reason">Main reason for your contact *</label>
+                        <ul id = "list">
+                            <li>
+                                <input type="radio" name="contact-reason"  value="question"
+                                    required="">
+                                <label for="question">Question</label>
+                            </li>
+                        
+                            <li>
+                                <input type="radio" name="contact-reason" value="comment" required="">
+                                <label for="comment">Comment</label>
+                            </li>
+                        
+                            <li>
+                                <input type="radio" name="contact-reason" value="order-problem"
+                                    required="">
+                                <label for="order-problem">Order Problem</label>
+                                
+                            </li>
+                        </ul>
+                        <label for="message">Enter your message *</label><br>
+                        <textarea name="message" id="message" placeholder="Your message here" required=""></textarea>
+
+                        <input class="hide" name="myName" value="Simit Sanjay Yadav"><br>
+                        <input id="btn-submit-contact" type="submit" value="Submit" >
+                    </form>
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+                    <div id="footer1">
+                        <div>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-youtube-square"></i>
+                            <i class="fab fa-instagram-square"></i>
+                            <i class="fab fa-pinterest"></i>
+                        </div>
+                    </div>
+                
+                    <div>
+                        <div id="footer2">
+                
+                            <div>
+                                <h1>Our Company</h1>
+                                <ul class="nav-links-2">
+                                    <a href="">
+                                        <li>
+                                            Our Brands
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Contact Us
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Corporation Information
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Investor Relations
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Media Center
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Careers
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Associate Portal
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            AMC Privacy Policy
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Terms & Conditions
+                
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                
+                            <div>
+                                <h1>Movies</h1>
+                                <ul class="nav-links-2">
+                                    <a href="">
+                                        <li>
+                                            Movies
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Theaters
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Rating Information
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Dolby Cinema at AMC
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            IMAX at AMC
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            PRIME at AMC
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            RealD 3D
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            BigD at AMC
+                
+                                        </li>
+                                    </a>
+                
+                                </ul>
+                            </div>
+                
+                            <div>
+                                <h1>Programming</h1>
+                                <ul class="nav-links-2">
+                                    <a href="">
+                                        <li>
+                                            $5 Fan Faves
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Private Theatre Rentals
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            AMC Artisan Films
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Indian Cinema
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Asian-Pacific Cinema
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Pantallas AMC
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Film Festivals
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                
+                                            Fathom Events
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            The Metropolitan Opera
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Sensory Friendly Films
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Groups & Events
+                
+                                        </li>
+                                    </a>
+                
+                                </ul>
+                            </div>
+                
+                            <div>
+                                <h1>More</h1>
+                                <ul class="nav-links-2">
+                                    <a href="">
+                                        <li>
+                                            AMC Stubs
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Offers & Promotions
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Gift Cards
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Mobile App
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            AMC Scene
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            American Film Institute
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Assistive Moviegoing
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Request Refund
+                
+                                        </li>
+                                    </a>
+                
+                                    <a href="">
+                                        <li>
+                                            Business Clients
+                
+                                        </li>
+                                    </a>
+                
+                                </ul>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <hr>
+                    <div class="footer3">
+                        <div>
+                            <p>&copy;Copyright 2020 AMC Theatres</p>
+                        </div>
+                
+                        <div class="footer-img">
+                            <ul class="nav-links">
+                                <li><a><img src="../IMAGES/footer1.png" alt="footer1"></a></li>
+                                <li><a><img src="../IMAGES/amc-icon.png" alt="footer2"></a></li>
+                                <li><a><img src="../IMAGES/footer2.png" alt="footer3"></a></li>
+                            </ul>
+                
+                        </div>
+                
+                        <div>
+                            <h3>A Wanda Group Company</h3>
+                        </div>
+                    </div>
+                </footer>
+</body>
+</html>
